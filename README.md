@@ -28,8 +28,6 @@
 
 3.量化策略的基本框架
 
-（参考： https://www.joinquant.com/study#new ）
-
 ## Terminal 初级应用
 
 ## Terminal 高级应用
@@ -94,26 +92,4 @@
 1. C#
 1. Other
 
-## FAQ
 
-   1.Why should I use SAMDATA Terminal?
-
-   2.What can I use SAMDATA Terminal for?
-
-   3.Why should I choose SAMDATA Terminal?
-
-   4.Which cloud providers and regions are supported by SAMDATA Terminal?
-
-   5.Is SAMDATA Terminal currently being used in production? 
-
-   6.When is SAMDATA Terminal a good choice?
-
-   7.Can I get support or a commercial license? 
-
-(持续补充，或可参考 https://www.joinquant.com/help/api/help?name=faq )
-
-# Success Stories (合作伙伴)
-
-> **Note:** Explore how customers use SAMDATA Terminal across industries and projects
->
-> 列举各合作伙伴，并简述使用体验及合作效果。
