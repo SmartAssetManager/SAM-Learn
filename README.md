@@ -84,11 +84,7 @@
 
 ## SAM Trader 策略 SDK
 
-1. Python
-   - 环境配置说明
-   - SDK 安装说明
-   - SDK 函数说明清单
-   - SDK 教程
+1. [Python](https://github.com/SmartAssetManager/SAM-Terminal-SDK-Python/blob/master/README.md)
 1. C#
 1. Other
 
