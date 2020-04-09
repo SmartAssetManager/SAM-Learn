@@ -52,7 +52,7 @@
 
       ![1586456386142](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410021947-469017.png) 
 
-      ![1586456521749](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1586456521749.png)  
+      ![1586456521749](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410030617-327134.png)  
 
       运行回测后示例结果如下：
 
@@ -62,7 +62,7 @@
 
       ![1586456217003](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410021700-117814.png) 
 
-      ![1586456241632](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1586456241632.png)   
+      ![1586456241632](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1586456241632.png)    
 
    3. 数据文件同步模块
 
@@ -80,7 +80,7 @@
 
       - 服务配置：支持用户自定义配置服务，目前支持：VSCode 服务地址配置，MySQL 服务地址配置，数据同步服务 API 地址配置，回测计算服务地址配置。
 
-        ![1586458344344](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1586458344344.png)
+        ![1586458344344](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410030709-608770.png) 
 
       - 用户中心：查看账号，修改密码，退出登录功能。
 
