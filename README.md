@@ -36,6 +36,8 @@
 
 > **Note:** Learn more about how to install SAMDATA Terminal and visit the API Reference
 
+- ![Terminal DOCS](https://github.com/SmartAssetManager/SAM-Learn/blob/master/Terminal%20Guide.md)
+
 ## Overview
 
 1.What is SAMDATA Terminal?
