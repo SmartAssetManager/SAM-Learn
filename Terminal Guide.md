@@ -58,34 +58,42 @@
 
       ![1586456065001](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410021430-968413.png) 
 
-      可查看具体的交易记录和回测日志：
+      ![1588046153874](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200428115555-903776.png) 
+
+      可查看具体的交易记录，回测日志，盈亏分析：
 
       ![1586456217003](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410021700-117814.png) 
 
-      ![1586456241632](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1586456241632.png)    
+      ![1586456241632](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200428115632-11183.png) 
+
+      ![1588046241195](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1588046241195.png)    
 
    3. 数据文件同步模块
 
       数据文件同步功能：将用户在官网购买的数据同步至服务器中。
 
-      ![1586457933846](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410024554-713082.png)  
+      ![1588045083650](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200428113804-231516.png) 
+
+      查看已下载的数据文件：
+
+      ![1588045302861](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200428115537-61578.png)  
 
    4. 数据同步数据库模块
 
       数据同步数据库功能：将用户在官网购买的数据同步至用户配置的数据库中。
 
-      ![1586457125522](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410023208-498892.png) 
+      ![1588045781102](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200428114942-876843.png)  
 
    5. 用户和配置模块
 
-      - 服务配置：支持用户自定义配置服务，目前支持：VSCode 服务地址配置，MySQL 服务地址配置，数据同步服务 API 地址配置，回测计算服务地址配置。
+      - 服务配置：支持用户自定义配置服务，目前支持：VSCode 服务地址配置，Terminal 业务中心服务地址配置，数据同步服务 API 地址配置，回测计算服务地址配置。
 
-        ![1586458344344](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410030709-608770.png) 
-
+        ![1588045829653](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200428115031-108289.png) 
+   
       - 用户中心：查看账号，修改密码，退出登录功能。
-
+   
         ![1586458266888](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410025109-435370.png) 
-
+   
       - 系统配置：
-
+   
         ![1586458427126](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410025351-682916.png) 
