@@ -66,7 +66,7 @@
 
       ![1586456241632](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200428115632-11183.png) 
 
-      ![1588046241195](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1588046241195.png)    
+      ![1588046241195](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200428131925-344949.png)    
 
    3. 数据文件同步模块
 
