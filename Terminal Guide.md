@@ -1,99 +1,122 @@
-**Terminal 终端使用说明**
+# Terminal 使用说明
 
-1. 安装
+## 一. 安装
 
-   【Windows】：双击安装包 [Sam Terminal.exe] 安装。
+【Windows】：双击安装包 [Sam Terminal.exe] 安装，可自定义安装位置。
 
-   ![1586425337153](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200409174218-951418.png) 
+【MacOs】：双击安装包 [Sam Termianl.dmg] 安装。
 
-   可自定义安装位置：
+## 二. 启动
 
-   ![1586425355740](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200409174240-796790.png) 
+双击程序启动 Sam Terminal，输入账号密码登录。（账号可从 [Samdata官网](https://www.samdata.trade/) 注册），成功登录出现欢迎页面。 
 
-   点击安装，等待安装完成即可。
+## 三. 使用说明
 
-   【MacOs】：双击安装包 [Sam Termianl.dmg] 安装。
+运行回测的步骤：
 
-2. 启动
+   1. 首先在 [官网商城](https://www.samdata.trade/shop) 中购买了数据；
+   2. 登录 Terminal 终端，在数据文件模块，点击下载文件；或者，在数据同步模块，点击需要同步的数据；
+   3. 文件下载或者同步完成后，编写策略；
+   4. 运行回测，查看回测结果。
 
-   双击程序启动 Sam Terminal，输入账号密码登录。（账号可从 [Samdata官网](https://www.samdata.trade/) 注册）
+**注：在运行回测之前要确保数据文件或数据库存在，否则无法运行回测。**
 
-   ![1586425558490](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200409174559-193621.png) 
+**数据来源于官网商城购买的数据：**
 
-   成功登录出现欢迎页面：
+![官网商城数据](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/170839-257418.png)
 
-   ![1586425739916](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200409174901-949768.png) 
+## 四. 回测示例
 
-3. 终端模块说明
+### 1. 登录Terminal，检查订单数据
 
-   - 策略->回测模块运行关系如图所示：
+登录终端账号，并在官网中检查是否存在有效的订单数据（示例中购买了2019-01~2019-04的期货K线数据）
 
-     ![Terminal终端功能模块图](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410020002-740566.png) 
+![登录](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/144842-766561.png)
 
-   - 数据同步模块来源于官网购买的订单数据：
+![订单](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/145848-87305.png)
 
-     ![1586456741658](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410022543-873355.png) 
+### 2. 下载文件
 
-   - 终端主要有以下几个功能模块组成，功能描述如下：
+在数据文件页面中，会显示您在官网已购买的订单数据，然后点击下载文件。**数据文件是运行回测的数据源之一**。
 
-   1. 策略模块：主要包含策略编写功能，编写策略流程：[新建策略] -> [编辑策略]，示例如下：（示例已同步数据文件）
+- 查看未下载的数据文件：
 
-      - 新建策略![img](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410013444-640892.png) 
+![未下载数据](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/150243-286405.png)
 
-      - 编写策略
+- 查看已下载的数据文件：
 
-        ![1586455740591](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410020904-185676.png) 
+![已下载数据](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/150710-886648.png)  
 
-        
+### 3. 同步数据
 
-   2. 回测模块
+在数据同步页面，可将用户在官网购买的数据同步至用户配置的数据库中。**数据库的数据也可作为运行回测的数据源之一**。
 
-      点击回测次数可查看历史回测列表，点击列表可查看对应的回测详情：
+免费的数据包可免费同步至服务器的数据库中，付费的数据包需要在[官网商城](https://www.samdata.trade/shop)中购买方可同步。
 
-      ![1586456386142](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410021947-469017.png) 
+同步状态有：未同步，正在同步，待同步，同步成功，同步失败；
 
-      ![1586456521749](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410030617-327134.png)  
+![1591600428995](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/151455-870342.png)
 
-      运行回测后示例结果如下：
+### 4. 策略编写
 
-      ![1586456065001](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410021430-968413.png) 
+等待数据下载或数据同步完成后，编写策略，运行回测。
 
-      ![1588046153874](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200428115555-903776.png) 
+编写策略流程：新建策略 -> 编写策略 -> 运行回测，示例如下：（示例已下载数据文件）
 
-      可查看具体的交易记录，回测日志，盈亏分析：
+- #### 新建策略
+  
+  ![新建策略](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/154001-778738.png)
 
-      ![1586456217003](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410021700-117814.png) 
+- #### 编写策略
+  
+  编写策略页面左边是代码目录，demo为示例代码目录，code为存放代码目录。中间是编辑策略代码区域。右边是API文档区域，点击右上角的"API文档"可关闭文档，也可拖动紫色边栏拉伸API文档区域大小。
+  
+  运行策略前，检查回测开始时间和结束时间的数据是否存在。
 
-      ![1586456241632](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200428115632-11183.png) 
+  ![编辑策略](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/155254-535749.png)
 
-      ![1588046241195](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200428131925-344949.png)    
+- #### 运行回测
 
-   3. 数据文件同步模块
+  运行策略时，检查运行目录路径是否正确。
 
-      数据文件同步功能：将用户在官网购买的数据同步至服务器中。
+  运行命令：python xxx.py
 
-      ![1588045083650](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200428113804-231516.png) 
+## 五. 回测报告
 
-      查看已下载的数据文件：
+点击回测次数可查看历史回测列表，点击回测结果可查看对应的回测详情：
 
-      ![1588045302861](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200428115537-61578.png)  
+![回测列表](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/171312-840726.png)   
 
-   4. 数据同步数据库模块
+![回测详情](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/171352-339536.png)
 
-      数据同步数据库功能：将用户在官网购买的数据同步至用户配置的数据库中。
+示例回测结果如下：
 
-      ![1588045781102](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200428114942-876843.png)  
+![示例回测结果](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/162233-357247.png) ![1591607099362](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/170459-836046.png) 
 
-   5. 用户和配置模块
+可查看具体的盈亏分析，交易记录，持仓历史，回测日志：
 
-      - 服务配置：支持用户自定义配置服务，目前支持：VSCode 服务地址配置，Terminal 业务中心服务地址配置，数据同步服务 API 地址配置，回测计算服务地址配置。
+![盈亏分析](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/170536-636796.png)
 
-        ![1588045829653](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200428115031-108289.png) 
-   
-      - 用户中心：查看账号，修改密码，退出登录功能。
-   
-        ![1586458266888](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410025109-435370.png) 
-   
-      - 系统配置：
-   
-        ![1586458427126](http://typora-image.oss-cn-shenzhen.aliyuncs.com/typora-image/20200410025351-682916.png) 
+![交易记录](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/170636-666823.png)
+
+![持仓历史](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/170738-473023.png)  
+
+![回测日志](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/170914-5668.png)
+
+## 六. 用户中心和配置中心
+
+- 用户中心
+  
+  查看账号，修改密码，退出登录功能。
+
+  ![用户中心](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/171156-172116.png) 
+
+- 配置中心
+  
+  服务配置：支持用户自定义配置服务，目前支持：VSCode 服务地址配置，Terminal 业务中心服务地址配置，数据同步服务 API 地址配置，回测计算服务地址配置。
+
+  ![服务配置](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/171013-41135.png) 
+
+  系统配置：
+
+  ![系统配置](https://raw.githubusercontent.com/SmartAssetManager/SAM-Learn/master/images202006/08/171219-290747.png) 
