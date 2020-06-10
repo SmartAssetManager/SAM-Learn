@@ -2,9 +2,15 @@
 
 ## 一. 安装
 
-【Windows】：双击安装包 [Sam Terminal.exe] 安装，可自定义安装位置。
+选择对应的版本下载：[安装包下载地址](https://github.com/SAMDATATrade/SAM-Terminal-Client/releases)
 
-【MacOs】：双击安装包 [Sam Termianl.dmg] 安装。
+- Windows
+
+  双击安装包 [Sam Terminal.exe] 安装，可自定义安装位置
+
+- MacOs
+  
+  双击安装包 [Sam Termianl.dmg] 安装。
 
 ## 二. 启动
 
